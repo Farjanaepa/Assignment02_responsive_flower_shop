@@ -66,6 +66,7 @@
     display: flex;
     justify-content: space-between;
     
+    
 }
 .banner-heading span{
 font-family: "Noto Serif", serif;
@@ -86,6 +87,13 @@ line-height: 89px;
 
 
 @media (max-width: 576px) {
+    .navbar-section{
+        padding: 0px 16px;
+    }
+    .navbar-section img{
+        width: 63px;
+    }
+    
     .nav-links li {
         display: none;
     }
@@ -95,4 +103,32 @@ line-height: 89px;
         display: inline-block;
     
     }
+
+    /* banner section */
+    .banner-section{
+         flex-direction: column-reverse;
+         margin-top: 28px;
+       
+       
+    }
+    .banner-section img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  .banner-heading{
+    padding: 10px 16px;
+    margin-top: 28px;
+    text-align: left;
+   
+  }
+  
+  .banner-heading span{
+    width: 100%;
+    font-size: 25px;
+    line-height: 33px ;
+  }
+  
+  
 }
