@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+/* common css re use */
+.font-inter{
+     font-family: "Inter", sans-serif;
+}
+.font-inter2{
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 22px;
+   color: rgba(0, 0, 0, 0.5);
+}
+.section-gap{
+
+    margin: 120px auto;
+}
+.highlight-color{
+    color: rgb(233, 90, 8);
+}
+
+/* navbar style */
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.logo-left{
+    text-align:left ;
+}
+.navitems-right{
+    text-align: right;
+    
+}
+.nav-links{
+   display: flex;
+   gap: 38px;
+}
+.nav-links a{
+    color: rgb(137, 135, 161);
+    font-weight: 400;
+    
+}
+
+
+.nav-links a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* banner section style */
+
+.banner-section{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-heading span{
+font-family: "Noto Serif", serif;
+font-size: 65px;
+font-weight: 700;
+line-height: 89px;
+}
+.banner-heading{
+    max-width: 570px;
+}
+
+
+
+
+/* responsive */
+
+/* navbar responsive */
+
+
+@media (max-width: 576px) {
+    .nav-links li {
+        display: none;
+    }
+
+    /* Show only the last item (Cart) */
+    .nav-links li:last-child {
+        display: inline-block;
+    
+    }
+}
