@@ -5,6 +5,7 @@
 *{
     list-style-type: none;
     text-decoration: none;
+    box-sizing: border-box;
 
 }
 
@@ -76,6 +77,46 @@ line-height: 89px;
 }
 .banner-heading{
     max-width: 570px;
+}
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+   
+.footer-content{
+    max-width: 1120px;
+    padding: 50px 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+.footer-content a{
+    color: rgb(107, 114, 128);
+    font-size: 16px;
+    
+}
+.footer-part2 li, .footer-part3 li{
+   display: flex;
+    line-height: 30px;
+    align-items: center;
+   
+}
+
+.footer-part4{
+    display: flex;
+    gap: 10px;
+   
+   
+}
+.footer-part4 img{
+    width: 36px;
+    height: 36px;
+    padding: 5px;
 }
 
 
