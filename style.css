@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 30px auto;
    
 }
 .logo-left{
@@ -111,15 +111,68 @@ line-height: 89px;
 .card-plant-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     text-align: center;
     
 }
 .card-plant img{
     max-width: 100%;
 }
+
+.card-plant p,h5{
+  margin: 20px 0;
+  font-size: 22px;
+  color:  rgb(17, 17, 17);
+  
+}
+
 .card-plant .btn{
     width: 100%;
+    font-size: 16px;
+}
+
+
+
+/* plants lover */
+.container-plants-lover{
+  margin-top: 200px;
+}
+.plants-lover{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 60px;
+}
+.plants-content{
+  max-width: 540px;
+  width: 100%;
+  margin: 38px auto;
+  /* padding-left: 10px; */
+}
+/* .plants-content img{
+ max-width: 100%;
+ 
+} */
+.plants-content ul li{
+  list-style-type:disc;
+  margin: 20px 0;
+  line-height: 27px;
+  
+}
+.plants-content ul{
+  padding-left: 35px;
+}
+.plants-picture{
+  position: relative;
+}
+.badge{
+ position: absolute;
+width: 286px;
+height: 286px;
+border-radius: 100%;
+left: 350px;
+top: -120px;
+box-shadow: -4px 6px 3px 0px rgba(101, 95, 95, 0.25);
 }
 
 /* join section */
@@ -185,6 +238,7 @@ line-height: 89px;
     max-width: 1440px;
     padding: 50px 60px;
     margin: 0 auto;
+    
    
     
 }
@@ -214,6 +268,7 @@ line-height: 89px;
 }
 .footer-part4{
     display: flex;
+    
    
     
 }
@@ -221,6 +276,8 @@ line-height: 89px;
     width: 36px;
     height: 36px;
     padding: 5px;
+  
+   
 }
 .footer-content a{
     color: rgb(107, 114, 128);
@@ -312,6 +369,30 @@ line-height: 89px;
     padding: 0px 20px;
   }
 
+
+  /* plants lover */
+
+  .plants-lover{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+  /* .plants-lover {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 20px;
+  } */
+
+  .plants-picture img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+    .badge {
+    display: none;
+  }
   /* join */
     .join-section {
         max-width: 321px;
@@ -339,13 +420,7 @@ line-height: 89px;
 
 
   /* footer */
-/* .footer-content{
-    display: grid;
-    grid-template-columns:repeat(1, 1fr);
-    align-items: center;
-    width: 100%;
-   
-} */
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -355,9 +430,15 @@ line-height: 89px;
 .footer-main, .footer-list{
     padding: 0;
 }
+.footer-part1 img{
+  width: 180px;
+  margin: 16px 0;
+}
 
 .footer-content > div {
-  text-align: left; 
+  text-align: left;
+  margin: 10px 0;
+  
 }
 
 
