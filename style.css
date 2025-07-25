@@ -494,6 +494,9 @@ line-height: 89px;
     padding: 0px 30px;
     margin-top: 20px;
   }
+  .footer-content p{
+    font-size: 18px;
+  }
  .plants-content br{
     display: none;
   }
