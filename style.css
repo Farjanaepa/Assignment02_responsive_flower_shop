@@ -29,6 +29,12 @@ h1,h2,h3,h4,h5,h6{
 .btn:hover{
   background: rgb(249, 111, 65);
 }
+.plants-font{
+    font-family: "Noto", Serif;
+    font-size: 50px;
+    font-weight: 700;
+ 
+}
 .section-gap{
 
     margin: 120px auto;
@@ -104,11 +110,7 @@ line-height: 89px;
     padding: 6px 126px;
     margin-bottom: 49px;
 }
-.plants-font{
-    font-family: "Noto", Serif;
-    font-size: 50px;
-    font-weight: 700;
-}
+
 
 
 .card-plant-container{
@@ -177,6 +179,67 @@ left: 350px;
 top: -120px;
 box-shadow: -4px 6px 3px 0px rgba(101, 95, 95, 0.25);
 }
+
+
+
+/* latest deal */
+.latest-deal-container{
+     max-width: 1140px;
+     margin: 200px auto;
+}
+.latest-deal{
+    text-align: center;
+}
+.latest-deal p{
+    padding: 6px 126px;
+    margin-bottom: 49px;
+}
+.latest-deal-pic-container{
+  display: flex;
+  max-width: 1140px;
+  margin: 50px auto ;
+  gap: 20px;
+ 
+}
+
+.bloom-plant{
+  width: 100%;
+  padding: 65px 49px;
+  border-radius: 10px;
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  background-image: url(./assets/deal-bloom.png);
+}
+.ana-plant{
+
+    width: 100%;
+  padding: 65px 49px;
+  border-radius: 10px;
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  background-image: url(./assets/deal-ana.png);
+}
+.deal-left-side{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-right-side{
+  width: 100%;
+  border-radius: 10px;
+  background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* join section */
 .join-container{
